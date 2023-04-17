@@ -6,6 +6,7 @@ def print_board(board):
             print(board[i][j], "|", end = " ")
         print()
         print("-------------")
+# parâmetro e imprime uma representação visual do jogo da velha 
 
 def check_win(board, mark):
     for i in range(3):
@@ -18,6 +19,7 @@ def check_win(board, mark):
     if (board[0][2] == mark and board[1][1] == mark and board[2][0] == mark):
         return True
     return False
+# lógica de verificação de vitória check_win, que recebe dois argumentos: board (tabuleiro) e mark (marca). 
 
 def tic_tac_toe():
     board = [[" ", " ", " "], [" ", " ", " "], [" ", " ", " "]]
