@@ -44,3 +44,4 @@ def tic_tac_toe():
             print("Esta posição já foi escolhida. Por favor, escolha outra.")
             
 tic_tac_toe()
+# jogador atual é alternado para o outro jogador e o loop continua
